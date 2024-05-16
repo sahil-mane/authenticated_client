@@ -2,7 +2,8 @@
 import React from 'react';
 import { Card, Flex, Form, Typography, Input, Button, Alert, Spin } from 'antd';
 import { Link } from 'react-router-dom';
-import vegeta from '../assets/vegeta.jpeg';
+// import vegeta from '../assets/vegeta.jpeg';
+import gohan from '../assets/gohan.jpeg';
 import useSignup from '../hooks/useSignup';
 
 const Register = () => {
@@ -108,7 +109,7 @@ const Register = () => {
 
                     {/* images */}
                     <Flex flex={1} justify='center' >
-                        <img src={vegeta} height='570'/>
+                        <img src={gohan} height='570'/>
                     </Flex>
                 </Flex>
             </Card>
